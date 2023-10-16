@@ -41,7 +41,7 @@ class CalculateViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        sender.destination
     }
 }
 
