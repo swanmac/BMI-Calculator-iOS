@@ -40,6 +40,7 @@ class CalculateViewController: UIViewController {
         bmiValue = String(format: "%.1f", bmi)
         
         self.performSegue(withIdentifier: "goToResult", sender: self)
+        //self is optional as the UI knows what it refers to //
 
     }
     
