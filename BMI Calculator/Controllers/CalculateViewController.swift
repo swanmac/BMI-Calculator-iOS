@@ -36,7 +36,7 @@ class CalculateViewController: UIViewController {
         
         let bmi = weight / pow(height, 2)
         
-        
+        self.performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
 
     }
 }
