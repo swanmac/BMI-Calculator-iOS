@@ -39,5 +39,9 @@ class CalculateViewController: UIViewController {
         self.performSegue(withIdentifier: "goToResult", sender: self)
 
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }
 }
 
