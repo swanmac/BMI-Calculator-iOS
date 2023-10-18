@@ -9,6 +9,12 @@
 import Foundation
 
 struct CalculatorBrain {
+    
+    
+    func getBMIValue() {
+        
+    }
+    
     func calculateBMI(height: Float, weight: Float) {
         let bmi = weight / (height * height)
     }
